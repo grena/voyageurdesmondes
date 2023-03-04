@@ -1,0 +1,46 @@
+:root {
+    --main-color: #F5CB5C;
+    /*--main-color: #f2542d;*/
+}
+
+body {
+    background: #202124;
+}
+
+.font-noto {
+    font-family: 'Noto Serif', serif;
+}
+
+.font-roboto {
+    font-family: 'Roboto Slab', serif;
+}
+
+.bg-carbon {
+    background: #242423;
+}
+
+.shadow {
+    text-shadow: 4px 4px 0px #000000;
+}
+
+.separator {
+    border-bottom: 1px solid var(--main-color);
+}
+
+.emphasis {
+    font-weight: 700;
+    color: var(--main-color);
+    text-shadow: 2px 2px 0px #000000;
+}
+
+.text-cream {
+    color: #E8EDDF;
+}
+
+p {
+    color: #CFDBD5;
+}
+
+.container {
+    max-width: 768px !important;
+}
